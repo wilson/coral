@@ -180,12 +180,6 @@ jobs:
         continue-on-error: true
         run: tail --verbose --lines=+1 rb_crash_*.txt
 
-      - uses: ./.github/actions/slack
-        with:
-          label: ${{ matrix.test_task }} ${{ matrix.configure }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SIMPLER_ALERTS_URL }} # ruby-lang slack: ruby/simpler-alerts-bot
-        if: ${{ failure() }}
-
   result:
     if: ${{ always() }}
     name: ${{ github.workflow }} result
