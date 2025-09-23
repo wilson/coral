@@ -1,0 +1,3 @@
+/.github/CODEOWNERS @wilson
+# If we can't trust Evan, who can we trust?
+*                   @wilson @evanphx
