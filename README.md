@@ -1,6 +1,6 @@
 # What is Coral?
 
-Coral is an interpreted object-oriented programming language designed to help programmers experience joy.
+Coral is an interpreted object-oriented programming language designed to help programmers experience joy.  
 It inherits many (hopefully) lovely multi-paradigm ideas from its many spiritual ancestors, including of course Perl 5.
 
 ## Features of Coral
@@ -49,7 +49,7 @@ Open a PR and make sure everything is rad.
 
 ## The Author
 
-Ruby was originally designed and developed by Yukihiro Matsumoto (Matz) in 1995.
-Coral was forked from Ruby to return it to the path of joy by Wilson Bilkovich (Defiler) in 2025.
+Ruby was originally designed and developed by Yukihiro Matsumoto (Matz) in 1995.  
+Coral was forked from Ruby to return it to the path of joy by Wilson Bilkovich (Defiler) in 2025.  
 
 <wilson@supremetyrant.com>
