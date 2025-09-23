@@ -66,9 +66,3 @@ jobs:
       - run: make all
 
       - run: make test
-
-      - uses: ./.github/actions/slack
-        with:
-          label: ${{ matrix.ruby }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SIMPLER_ALERTS_URL }} # ruby-lang slack: ruby/simpler-alerts-bot
-        if: ${{ failure() }}
