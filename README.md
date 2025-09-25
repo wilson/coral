@@ -1,7 +1,7 @@
 # What is Coral?
 
 Coral is an interpreted object-oriented programming language designed to help programmers experience joy.  
-It inherits many (hopefully) lovely multi-paradigm ideas from its many spiritual ancestors, including of course Perl 5.
+It inherits many (hopefully) lovely multi-paradigm ideas from its many spiritual ancestors, especially Perl, Smalltalk, and Lisp.
 
 ## Features of Coral
 
